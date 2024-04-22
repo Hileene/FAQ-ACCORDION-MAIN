@@ -13,6 +13,8 @@
     font-family: 'Work Sans';
   }
 
+  /*Containers*/
+
   .svg-container {
     background-image: url('./assets/images/background-pattern-mobile.svg');
     width: 375px;
@@ -36,5 +38,24 @@
     z-index: 1;
     top: -144px;
     padding: 1rem 2rem;
+  }
+
+  /*Hearder-title*/
+
+  .header {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: auto;
+  }
+
+  /*Qna-Section*/
+
+  .qna-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .question-block {
+    display: flex;
   }
 }
