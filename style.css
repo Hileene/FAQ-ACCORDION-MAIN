@@ -12,4 +12,29 @@
     flex-direction: column;
     font-family: 'Work Sans';
   }
+
+  .svg-container {
+    background-image: url('./assets/images/background-pattern-mobile.svg');
+    width: 375px;
+    height: 235px;
+  }
+  .container {
+    position: relative;
+    background-color: hsl(275, 100%, 97%);
+    height: 100vh;
+  }
+
+  .faq-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    margin: 1.5rem;
+    z-index: 1;
+    top: -144px;
+    padding: 1rem 2rem;
+  }
 }
