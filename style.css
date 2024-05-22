@@ -137,4 +137,8 @@ body {
   .main-title {
     font-size: 45px;
   }
+
+  .attribution {
+    bottom: 15rem;
+  }
 }
