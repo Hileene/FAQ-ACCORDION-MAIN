@@ -1,6 +1,6 @@
 /***************************************MOBILE-FIRST*************************************/
 
-/*General styling*/
+/* General Styling */
 * {
   box-sizing: border-box;
 }
@@ -17,29 +17,34 @@ body {
   background-image: url('assets/images/background-pattern-mobile.svg');
   width: 100%;
   min-height: 40vh;
+  position: relative; /* Ensure the SVG is positioned correctly */
+  z-index: 0; /* Ensure the SVG is below the FAQ container */
 }
 
 .container {
   background-color: hsl(275, 100%, 97%);
   width: 100%;
-  height: 160vh;
+  min-height: 100vh;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative; /* Ensure position relative for absolute positioning within */
+  z-index: 0; /* Ensure the container is below the FAQ container */
 }
 
 .faq-container {
-  position: absolute; /* Position the faq-container relative to its closest positioned ancestor (container) */
-  top: -12%;
-  left: 50%;
-  transform: translateX(-50%); /* Center the container horizontally */
+  margin-top: -7.5rem; /* Adjust to overlap the SVG */
   width: 90%;
   background-color: white;
   border-radius: 10px;
   padding: 0.5rem 1.5rem;
+  position: relative; /* Ensure position relative for absolute positioning within */
+  z-index: 2; /* Ensure the FAQ container is above other elements */
+  align-self: center;
 }
 
-/*Hearder-title*/
-
+/* Header Title */
 .header {
   display: flex;
   align-items: center;
@@ -56,11 +61,9 @@ body {
   color: hsl(292, 42%, 14%);
 }
 
-/*Qna-Section*/
-
+/* QnA Section */
 .qna-section {
   border-bottom: 1px solid #eeeeee;
-  margin: 1rem 0 1rem 0;
 }
 
 .question-block {
@@ -87,17 +90,14 @@ body {
 
 .answer-visible {
   display: block; /* Show answer when active */
-  transition: max-height 0.3s ease; /* Add transition for smooth animation */
   color: hsl(292, 16%, 49%);
   font-size: 16px;
 }
 
-/*Attribution*/
-
+/* Attribution */
 .attribution {
-  position: absolute;
-  bottom: 0rem;
   font-size: 13px;
+  text-align: center;
 }
 
 /***************************************TABLET VERSION*************************************/
@@ -106,10 +106,12 @@ body {
   .svg-container {
     background-image: url('assets/images/background-pattern-desktop.svg');
     width: 100%;
+    min-height: 40vh;
   }
+
   .faq-container {
-    width: 60%;
-    top: -13%;
+    margin-top: -8.5rem;
+    width: 50%;
   }
 
   .star-icon {
@@ -119,26 +121,15 @@ body {
   .main-title {
     font-size: 35px;
   }
-
-  .attribution {
-    left: 50%;
-    transform: translateX(-50%);
-  }
 }
-
-/***************************************DESKTOP VERSION*************************************/
 
 @media screen and (min-width: 1280px) {
   .faq-container {
-    width: 41%;
-    top: -16%;
+    margin-top: -10rem;
+    width: 48%;
   }
 
   .main-title {
     font-size: 45px;
-  }
-
-  .attribution {
-    bottom: 15rem;
   }
 }
