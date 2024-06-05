@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion solution
 
-![Desktop design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_desktop.png)
+![Design preview for the FAQ accordion coding challenge ](./design/desktop-preview.jpg)
 
 This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -30,11 +30,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<strong>Mobile version</strong>
 
 ![Mobile design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_mobile1.png)
 ![Mobile design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_mobile2.png)
+
+<strong>Tablet version</strong>
+
 ![Tablet design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_tablet.png)
+
+<strong>Desktop version</strong>
+
 ![Desktop design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_desktop.png)
 
 ### Links
@@ -119,10 +125,10 @@ Also, I would like to deepen my understanding with the position CSS property.
 
 ### Useful resources
 
-- [Position CSS property](https://www.pierre-giraud.com/html-css-apprendre-coder-cours/position/) - This resource help me to refresh my memory about this property and updated my logic about my layout.
-- [Javascript Collapse/Expand animation](https://www.w3schools.com/howto/howto_js_collapsible.asp) - I had already an idea about how I wanted to implement the collapse and expand functionnality but my idea was more complicated and this W3School tutorial help me to remember the "nexElementSibling" property. This way my code is shorter and smoother.
+- [Pierre-Giraud Position CSS property](https://www.pierre-giraud.com/html-css-apprendre-coder-cours/position/) - This resource help me to refresh my memory about this property and updated my logic about my layout.
+- [W3Schools - Javascript Collapse/Expand animation](https://www.w3schools.com/howto/howto_js_collapsible.asp) - I had already an idea about how I wanted to implement the collapse and expand functionnality but my idea was more complicated and this W3School tutorial help me to remember the "nexElementSibling" property. This way my code is shorter and smoother.
 
 ## Author
 
 - Website - [Aline Behalal](https://aline-behalal.netlify.app/)
-- Frontend Mentor - [@yHileene](https://www.frontendmentor.io/profile/Hileene)
+- Frontend Mentor - [@Hileene](https://www.frontendmentor.io/profile/Hileene)
