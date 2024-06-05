@@ -16,9 +16,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -122,21 +119,10 @@ Also, I would like to deepen my understanding with the position CSS property.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Position CSS property](https://www.pierre-giraud.com/html-css-apprendre-coder-cours/position/) - This resource help me to refresh my memory about this property and updated my logic about my layout.
+- [Javascript Collapse/Expand animation](https://www.w3schools.com/howto/howto_js_collapsible.asp) - I had already an idea about how I wanted to implement the collapse and expand functionnality but my idea was more complicated and this W3School tutorial help me to remember the "nexElementSibling" property. This way my code is shorter and smoother.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Aline Behalal](https://aline-behalal.netlify.app/)
+- Frontend Mentor - [@yHileene](https://www.frontendmentor.io/profile/Hileene)
