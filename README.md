@@ -1,96 +1,128 @@
-# Frontend Mentor - FAQ accordion
+# Frontend Mentor - FAQ accordion solution
 
-![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)
+![Desktop design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_desktop.png)
 
-## Welcome! 👋
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Thanks for checking out this front-end coding challenge.
+## Table of contents
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+## Overview
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this FAQ accordion and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to: 
+Users should be able to:
 
 - Hide/Show the answer to a question when the question is clicked
 - Navigate the questions and hide/show answers using keyboard navigation alone
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./screenshot.jpg)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+![Mobile design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_mobile1.png)
+![Mobile design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_mobile2.png)
+![Tablet design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_tablet.png)
+![Desktop design solution screenshot for the FAQ accordion challenge ](./assets/images/Screenshot_%20FAQ-accordion_desktop.png)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://hileene.github.io/FAQ-ACCORDION-MAIN/)
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+## My process
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+The development of the FAQ accordion project was carried out in several stages to ensure a structured and responsive design:
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+1. **HTML Structure**: The initial step was to build the HTML structure. This involved creating the basic skeleton of the FAQ accordion, including the main container, question blocks, and answer blocks. Semantic HTML tags were used to ensure a clear and accessible markup.
 
-## Building your project
+2. **CSS Styling (Mobile First)**: After establishing the HTML structure, the next step was to style the FAQ accordion using CSS. Following the mobile-first approach, styles were first applied to optimize the layout for small screens (375px). This included setting fonts, colors, and layout properties to ensure a user-friendly experience on mobile devices.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+3. **CSS Styling (Tablet and Desktop)**: Once the mobile version was in place, media queries were used to adjust the styles for larger screens. For tablet devices (768px and up), adjustments were made to improve the layout and spacing. Finally, for desktop screens (1280px and up), further enhancements were made to take full advantage of the available screen real estate, ensuring a consistent and responsive design across all devices.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+4. **JavaScript for Collapse Effect**: The final step involved adding interactivity to the FAQ accordion using JavaScript. Event listeners were added to the question blocks to toggle the visibility of the corresponding answer blocks when clicked. Additionally, the icon was dynamically changed between a plus and a minus to indicate the state of the answer (collapsed or expanded). Smooth transitions were implemented to enhance the user experience.
 
-## Deploying your project
+By following these steps, the FAQ accordion project was developed to be fully responsive and interactive, providing a seamless user experience across various devices and screen sizes.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+### Built with
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- JavaScript
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### What I learned
 
-## Create a custom `README.md`
+During the development of the FAQ Accordion project, I gained significant insights and practical experience in several key areas of web development. Firstly, I honed my skills in building a semantic HTML structure, ensuring that the content is well-organized and accessible. I also deepened my understanding of mobile-first CSS design principles, allowing me to create a responsive layout that adapts seamlessly to various screen sizes, from mobile devices to desktops. However, I made some mistakes at the beginning of the process.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+At first, my positionning was not correct. I used the "position: absolute" property on my "container" element and after that "position: absolute" for the "faq-container" element and the "attribution" element. Because of that, the layout was not responsive.
+By using only relative positionning, flexbox layout and the property z-index, I managed to ensure a solid layout for all screen sizes. This project also reinforced the importance of maintaining a balance between design aesthetics and functionality, ensuring that the interface is both visually appealing and user-friendly.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Code snippets:
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+```css
+.svg-container {
+  position: relative;
+  z-index: 0;
+}
 
-## Submitting your solution
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+}
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+.faq-container {
+  position: relative; /* Ensure position relative for absolute positioning within */
+  z-index: 2; /* Ensure the FAQ container is above other elements */
+  align-self: center;
+}
+```
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+One of the most valuable aspects of this project was implementing the collapse and expand functionality using JavaScript. I learned how to manipulate the DOM effectively, add event listeners, and toggle classes to create interactive elements. This enhanced my proficiency in writing clean, modular JavaScript code and improved my problem-solving skills when debugging and refining the user interactions.
 
-## Sharing your solution
+Code snippets:
 
-There are multiple places you can share your solution:
+```js
+questionBlocks.forEach((questionBlock) => {
+  questionBlock.addEventListener('click', () => {
+    const answerBlock = questionBlock.nextElementSibling
+    answerBlock.classList.toggle('answer-visible')
+  })
+})
+```
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+Overall, this project was an excellent opportunity to integrate various web development techniques and deepen my understanding of creating dynamic and responsive web applications.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+### Continued development
 
-## Got feedback for us?
+For futur projects, I would like learn how to implement the collapse and expand functionnality using a JavaScript framework like Vue.js, Angulr or Next.js. I've already used React to implement this fuctionnality for a school project but I would like to refine my knowlege also in this area.
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Also, I would like to deepen my understanding with the position CSS property.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+### Useful resources
 
-**Have fun building!** 🚀
+- [Position CSS property](https://www.pierre-giraud.com/html-css-apprendre-coder-cours/position/) - This resource help me to refresh my memory about this property and updated my logic about my layout.
+- [Javascript Collapse/Expand animation](https://www.w3schools.com/howto/howto_js_collapsible.asp) - I had already an idea about how I wanted to implement the collapse and expand functionnality but my idea was more complicated and this W3School tutorial help me to remember the "nexElementSibling" property. This way my code is shorter and smoother.
+
+## Author
+
+- Website - [Aline Behalal](https://aline-behalal.netlify.app/)
+- Frontend Mentor - [@yHileene](https://www.frontendmentor.io/profile/Hileene)
