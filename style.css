@@ -123,6 +123,8 @@ body {
   }
 }
 
+/***************************************DESKTOP VERSION*************************************/
+
 @media screen and (min-width: 1280px) {
   .faq-container {
     margin-top: -10rem;
