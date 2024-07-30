@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com]
+- Solution URL: [https://github.com/Hileene/FAQ-ACCORDION-MAIN]
 - Live Site URL: [https://hileene.github.io/FAQ-ACCORDION-MAIN/]
 
 ## My process
